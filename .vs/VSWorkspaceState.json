@@ -1,0 +1,12 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\ContactManagementAPI",
+    "\\ContactManagementAPI\\Controllers",
+    "\\ContactManagementAPI\\Service",
+    "\\ContactManagementAPI\\Service\\Implementation",
+    "\\ContactManagementTest"
+  ],
+  "SelectedNode": "\\ContactManagementAPI\\Controllers\\ContactsController.cs",
+  "PreviewInSolutionExplorer": false
+}

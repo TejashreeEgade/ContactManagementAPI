@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\SAKSHI\\source\\repos\\TestProject\\ContactManagementAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F0956ADC-0028-4415-B54B-37B902B06124}|ContactManagementAPI.csproj|c:\\users\\sakshi\\source\\repos\\testproject\\contactmanagementapi\\controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0956ADC-0028-4415-B54B-37B902B06124}|ContactManagementAPI.csproj|solutionrelative:controllers\\contactscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0956ADC-0028-4415-B54B-37B902B06124}|ContactManagementAPI.csproj|c:\\users\\sakshi\\source\\repos\\testproject\\contactmanagementapi\\service\\implementation\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F0956ADC-0028-4415-B54B-37B902B06124}|ContactManagementAPI.csproj|solutionrelative:service\\implementation\\contactservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ContactService.cs",
+              "DocumentMoniker": "C:\\Users\\SAKSHI\\source\\repos\\TestProject\\ContactManagementAPI\\Service\\Implementation\\ContactService.cs",
+              "RelativeDocumentMoniker": "Service\\Implementation\\ContactService.cs",
+              "ToolTip": "C:\\Users\\SAKSHI\\source\\repos\\TestProject\\ContactManagementAPI\\Service\\Implementation\\ContactService.cs",
+              "RelativeToolTip": "Service\\Implementation\\ContactService.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAgwFIAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T13:06:49.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ContactsController.cs",
+              "DocumentMoniker": "C:\\Users\\SAKSHI\\source\\repos\\TestProject\\ContactManagementAPI\\Controllers\\ContactsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContactsController.cs",
+              "ToolTip": "C:\\Users\\SAKSHI\\source\\repos\\TestProject\\ContactManagementAPI\\Controllers\\ContactsController.cs",
+              "RelativeToolTip": "Controllers\\ContactsController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAwwBcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T12:51:09.229Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
