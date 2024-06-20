@@ -12,7 +12,7 @@ namespace ContactManagementAPI.Controllers
     {
         ContactService _contactService = new ContactService();      
         // GET api/<ContactsController>/1
-        [HttpGet("{id}")]
+        [HttpGet, Route("GetContactById/{id}")]
         public ActionResult GetContactById(int id)
         {
             var data = _contactService.GetContactById(id);
@@ -22,7 +22,7 @@ namespace ContactManagementAPI.Controllers
                 return Ok(data);    
         }
 
-        [HttpGet]
+        [HttpGet, Route("GetAllContacts")]
         public ActionResult GetAllContacts()
         {
             var data = _contactService.GetAllContacts();
@@ -33,14 +33,14 @@ namespace ContactManagementAPI.Controllers
         }
 
         // POST api/<ContactsController>
-        [HttpPost]
+        [HttpPost, Route("CreateContact")]
         public ActionResult CreateContact([FromBody] ContactModel model)
         {
             var result = _contactService.CreateContact(model);
             return Ok(result);
         }
 
-        [HttpPut]
+        [HttpPut,Route("Update")]
         public ActionResult Update([FromBody] ContactModel model)
         {
             var result = _contactService.UpdateContact(model);
@@ -48,7 +48,7 @@ namespace ContactManagementAPI.Controllers
         }
 
         // DELETE api/<ContactsController>/5
-        [HttpDelete("{id}")]
+        [HttpDelete, Route("Delete/{id}")]
         public void Delete(int id)
         {
             var result = _contactService.DeleteContact(id);
