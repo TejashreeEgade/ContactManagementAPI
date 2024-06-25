@@ -1,20 +1,21 @@
 ﻿using System.Net;
+using ContactManagementAPI.Service.Interface;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 
 namespace ContactManagementAPI
 {
-    public class GlobalExceptionMiddleware
+    public class GlobalExceptionMiddleware : IExceptionGlobalWare
     {
         private readonly RequestDelegate _next;
         private readonly ILogger<GlobalExceptionMiddleware> _logger;
 
-        public GlobalExceptionMiddleware(RequestDelegate requestDelegate, ILogger<GlobalExceptionMiddleware> logger)
-        {
-            _next = requestDelegate;
-            _logger = logger;
-        }
-        public async Task InvokeSync(HttpContext context)
+        //public GlobalExceptionMiddleware(, ILogger<GlobalExceptionMiddleware> logger)
+        //{
+        //    _next = requestDelegate;
+        //    _logger = logger;
+        //}
+        public async Task InvokeSync(HttpContext context, RequestDelegate _next)
         {
             try
             {
